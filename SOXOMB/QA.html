@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header
+      class="bg-red-500 text-white py-3 sticky w-full z-50 flex justify-between flex-col items-center gap-3"
+    >
+      <div class="flex justify-between items-center w-full user-action px-6">
+        <div class="flex items-center">
+            <div class="drawer-handle">
+                <button class="btn btn-primary"><img src="./assets/icons/Menu.svg" alt=""></button>
+              </div>
+            <div>
+                <img class="w-[100px]" src="./assets/img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a href="https://play.ld99.club/#/gl/dashboard">
+            <button
+              class="user-action-button text-gray-700 px-4 py-2 rounded font-medium max-[768px]:text-[12px]"
+            >
+              Đăng nhập
+            </button>
+          </a>
+          <a href="https://play.ld99.club/#/gl/register">
+            <button
+              class="user-action-button text-gray-700 px-4 py-2 rounded font-medium max-[768px]:text-[12px]"
+            >
+              Đăng kí
+            </button>
+          </a>
+        </div>
+      </div>
+      <marquee behavior="scroll" direction="left">
+        <p class="text-[24px] font-extrabold font-mono uppercase text-white">
+          Uy tín, chất lượng, chuyên nghiệp số 1 Việt Nam! An toàn tuyệt đối!
+          Nạp/rút đơn giản, dễ dàng, thuận tiện.!!
+        </p>
+      </marquee>
+    </header>
+    <!-- Swiper -->
+    <div class="swiper-container my-10 overflow-x-hidden relative">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner1.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner2.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner3.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+            <img
+              src="./assets/img/banner4.jpg"
+              alt="Slot Machine"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide h-full">
+            <img
+              src="./assets/img/banner6.jpg"
+              alt="Slot Machine"
+              class="w-full h-full object-cover"
+            />
+          </div>
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Drawer -->
+    <div class="drawer-overlay"></div> <!-- add an overlay div -->
+    <div class="drawer">
+      <div class="drawer-content">
+          <ul class="">
+              <li class="pt-3 pb-2">
+                <a href="#" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                  <span class="text-lg font-semibold">Trang chủ</span>
+                </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/detail.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Giới
+                      thiệu chi tiết</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/promotion.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Khuyến mãi</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="https://ld99.club/bxh.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Bảng xếp hạng</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/thanhlo.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Thánh lô</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="https://ld99.club/lo-de-chan-kinh.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Lô đề chân
+                      kinh</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/huongdantaiapp.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Hướng dẫn
+                      tải app</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/QA.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Câu hỏi thường gặp</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/daily.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Đại lý</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/chietkhau.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Chiết khấu</span>
+                  </a>
+              </li>
+            </ul>
+      </div>
+  </div>
+      
+    <main class="max-w-screen-lg mx-auto px-4 ">
+      <p class="text-center text-4xl font-bold mb-2 animate-character-text">
+        Chào mừng đến với LD99 (Lô đề 99) - nhà cái hàng đầu Việt Nam
+      </p>
+      <p
+        class="text-lg text-center text-gray-700 mb-8 text-red-500 font-semibold"
+      >
+        Nơi sự uy tín được đặt lên trên tất cả.!!
+      </p>
+      <div>
+        <p class="text-[30px] font-bold font-sans text-transparent bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text">
+            Câu hỏi thường gặp
+        </p>
+      </div>
+      <section class="mt-5">
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ TẠI SAO LẠI CHỌN LD99.CLUB?
+            </p>
+            <p class="pl-5">
+                LD99 tự hào là một trong những nhà cái hàng đầu Châu Á. Chúng tôi cung cấp đầy đủ các sản phẩm, đa dạng về hình thức gửi tiền và đặc biệt không bao giờ thiếu những khuyến mãi hấp dẫn hàng ngày, hàng tháng
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ CHƠI LÔ ĐỀ TẠI LD99 CÓ AN TOÀN KHÔNG?
+            </p>
+            <p class="pl-5">
+                Chúng tôi hỗ trợ người chơi bảo mật 4 lớp từ tài khoản khách hàng, không lưu lại IP của khách, không yêu cầu số điện thoại cá nhân, tất cả thông tin đều được mã hóa, Website có tường lửa tránh bị hack tài khoản!
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ HƯỚNG DẪN ĐĂNG KÝ, TẠO TÀI KHOẢN TẠI LD99.CLUB
+            </p>
+            <p class="pl-5">
+                Chúng tôi hỗ trợ người chơi bảo mật 4 lớp từ tài khoản khách hàng, không lưu lại IP của khách, không yêu cầu số điện thoại cá nhân, tất cả thông tin đều được mã hóa, Website có tường lửa tránh bị hack tài khoản!
+                <br>
+                <span class="text-yellow-500">➔ Bước 1</span>: Truy cập vào website  <span class="text-red-500">LD99.CLUB</span>
+                <br>
+                <span class="text-yellow-500">➔ Bước 2</span>: Chọn biểu tượng QR Code trên màn hình chính cho phiên bản phù hợp với điện thoại của mình IOS/ANDROID và click vào biểu tượng QR CODE để cài đặt
+                <br>
+                <span class="text-yellow-500">➔ Bước 3</span>: Làm theo hướng dẫn tiếp theo trên điện thoại và cài đặt app LD99 để đăng
+                <br>
+                <span class="text-yellow-500">➔ Lưu ý</span>: Bạn có thể đăng nhập và chơi trực tiếp trên website <span class="text-red-500">LD99.CLUB</span>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ LÀM THẾ NÀO NẾU TÔI NHẬP SAI MẬT KHẨU?
+            </p>
+            <p class="pl-5">
+                - Nếu nhập sai mật khẩu lần đầu, quý khách hãy kiểm tra lại và đảm bảo mật khẩu của quý khách nhập là chính xác. Trong trường hợp quý khách nhập sai mật khẩu 05 lần liên tiếp, vì lí do bảo mật, hệ thống sẽ tạm khóa tài khoản của quý khách.
+                <br>
+                - Để được hỗ trợ mở lại tài khoản và cấp mật khẩu mới, quý khách vui lòng liên hệ với Bộ Phận Chăm Sóc Khách Hàng.
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ TÔI MUỐN NẠP TIỀN VÀO LD99 BẰNG CÁCH NÀO?
+            </p>
+            <p class="pl-5">
+                Chúng tôi hỗ trợ người chơi bảo mật 4 lớp từ tài khoản khách hàng, không lưu lại IP của khách, không yêu cầu số điện thoại cá nhân, tất cả thông tin đều được mã hóa, Website có tường lửa tránh bị hack tài khoản!
+                <br>
+                <span class="text-yellow-500">➔ Bước 1</span>: Quý khách đăng nhập tài khoản tại LD99 > chọn Chuyển Tiền > tại mục Chuyển Khoản Ngân Hàng: Chọn ngân hàng tương ứng với tài khoản ngân hàng quý khách đang sử dụng để hệ thống tự động hiển thị thông tin chi tiết ngân hàng của LD99.
+                <br>
+                <span class="text-yellow-500">➔ Bước 2</span>: Chuyển tiền vào tài khoản ngân hàng do LD99 cung cấp.
+                <br>
+                <span class="text-yellow-500">➔ Bước 3</span>: Sau khi chuyển tiền thành công, quý khách kiểm tra lại số dư trên tài khoản LD99
+                <br>
+                b. Nạp tiền bằng thẻ cào <br>
+                c. Nạp tiền bằng ví Momo
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ TÔI MUỐN RÚT TIỀN RA TỪ TÀI KHOẢN LD99 BẰNG CÁCH NÀO?
+            </p>
+            <p class="pl-5">
+                - Quý khách có thể rút tiền từ tài khoản tại LD99 qua về tài khoản Ngân Hàng
+                <br> 
+                - Quý khách đăng nhập tài khoản tại LD99, chọn Quỹ $ > Rút tiền > Chuyển khoản ngân hàng và làm theo hướng dẫn.
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ TÔI CÓ BỊ TÍNH PHÍ KHI NẠP TIỀN, RÚT TIỀN KHÔNG?
+            </p>
+            <p class="pl-5">
+                - Hiện tại LD99 sẽ không tính bất kỳ chi phí gửi tiền và rút tiền nào được thực hiện từ tài khoản của quý khách. Tuy nhiên, nhiều phương thức gửi tiền quý khách lựa chọn có thể bị tính phí giao dịch từ nhà cung cấp dịch vụ.
+                <br>
+                - LD99 có quyền từ chối giao dịch nếu phát hiện các hành vi gian lận, vi phạm các điều khoản và điều kiện trong quá trình tham gia chơi của quý khách
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ LÀM GÌ KHI RÚT TIỀN LD99 BỊ CHẬM? NGUYÊN NHÂN TẠI SAO?
+            </p>
+            <p class="pl-5">
+                Đối với khách hsàng đang dính phải trường hợp như vậy vui lòng liên hệ với CSKH để kiểm tra tài khoản xem có đủ điều kiện rút tiền chưa, nếu tất cả đều hoàn thành xin khách hàng kiểm tra lại tài khoản ngân hàng của bản thân!
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ TÔI SẼ NHẬN ĐƯỢC TIỀN RÚT TỪ LD99 TRONG BAO LÂU?
+            </p>
+            <p class="pl-5">
+                Để đảm bảo tính bảo mật, tất cả các khoản rút sẽ được xác minh đầy đủ các bước theo đúng quy trình của LD99. Thời gian xử lý sau khi nhận được yêu cầu rút tiền của quý khách sẽ được xử lý trong vòng 15-30 phút.
+                <br>
+                Lưu ý: Trong trường hợp quý khách rút tiền về ngân hàng khác các ngân hàng LD99 đang hỗ trợ, thời gian xử lý giao dịch có thể là 1 - 3 tiếng trung bình và chậm là 1 - 3 ngày, tuỳ vào ngân hàng và thời điểm rút tiền.
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[18px]">
+                ❖ TÔI PHẢI LÀM THẾ NÀO ĐỂ THAM GIA CHƯƠNG TRÌNH KHUYẾN MÃI?
+            </p>
+            <p class="pl-5">
+                Quý khách truy cập vào mục Khuyến mãi để tham khảo thông tin và đăng ký tham gia các khuyến mãi hiện có của LD99 hoặc liên hệ với bộ phận CSKH 24/7 để được tư vấn thêm.
+                <br>
+                Lưu ý: Để tham gia khuyến mãi, quý khách cần nhấn vào nút Đổi Khuyến Mãi hoặc thực hiện theo yêu cầu của khuyến mãi trước khi thời gian khuyến mãi kết thúc.
+            </p>
+        </div>
+
+
+      </section>
+    </main>
+
+     <footer>
+      <div class="h-fit px-5 py-8 w-full flex justify-between items-start max-[786px]:flex-col max-[786px]:gap-10">
+        <div class="flex flex-col w-[25%] max-[786px]:w-full">
+          <h1 class="text-red-500 text-[24px]">
+            Lợi ích khi tham gia 
+          </h1>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3 ">
+              Giao lưu với thánh Lô.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Giao lưu với thánh Cô.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Giao lưu với các lô thủ, đề thủ, số thủ... trên khắp mọi miền tổ quốc.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Nhận thông tin mới nhất và chính xác nhất mỗi ngày.
+            </p>
+          </a>
+          <div class="flex gap-3 mt-5 items-center">
+            <p class="text-white text-lg">Cài đặt Telegram</p>
+            <a href="https://apps.apple.com/us/app/telegram-messenger/id686449807" target="_blank">
+              <img src="./assets/icons/icon-telegram-ios.png" style="width: 60px;">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" target="_blank">
+              <img src="./assets/icons/icon-telegram-android.png" style="width: 60px;">
+          </a>
+          </div>
+
+        </div>
+        <div class="flex gap-5 items-center justify-start h-full flex-col w-[calc(75%-20px)] max-[786px]:w-full">
+          <ul class="warning flex justify-center gap-4">
+            <li>
+                <a class="warning" title="Cấm người chưa đủ 18+">
+                    <img src="./assets/icons/warning_18.png" alt="...">
+                </a>
+            </li>
+            <li>
+                <a class="hand" title="Cấm người chưa đủ 18+">
+                    <img src="./assets/icons/icon_hand.png" alt="...">
+                </a>
+            </li>
+          </ul>
+          <div>
+            <p class="text-white font-mono text-[16px] text-center">Chúng tôi tích cực đẩy mạnh cá cược có trách
+              nhiệm và
+              cương
+              quyết từ chối trẻ vị thành niên sử dụng phần mềm của chúng tôi để cá cược
+              trên mạng.
+          </p>
+          </div>
+          <div class="w-full">
+            <ul class="mt-2 flex justify-center gap-3">
+              <li class="p-1">
+                <a class="master-card" title="Ngân hàng">
+                    <img class="w-[70px]" src="./assets/icons/icon_add_banking.png" alt="...">
+                </a>
+            </li>
+            <li class="p-1">
+                <a class="bank" title="Momo">
+                    <img class="w-[70px]" src="./assets/icons/logo_momo2.png" alt="...">
+                </a>
+            </li>
+            <li class="p-1">
+                <a class="visa" title="Tiền điện tử USDT">
+                    <img class="w-[70px]" src="./assets/icons/coin.png" alt="...">
+                </a>
+            </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-5 justify-center">
+            <p class="text-white text-center text-[16px]">Copyright (C) 2023 by LD99. All rights reserved.</p>
+            <p class="text-white text-center text-[14px]">Tags: LD99, Lô, Đề, Lô đề, Loto, Đề truyền thống, Đề đầu, Đề đít, Đề đuôi, Đề chạm, Đề chẵn lẻ, Đề tài xỉu, Đề xấp ngửa, Đề 1 ăn 99, Đề 1 ăn 100, Lô truyền thống, Lô kép, Lô xiên, Lô xiên 2, Lô xiên 3, Lô xịt, Đề 3 càng, Nuôi lô, Nuôi lô gấp thếp, Nuôi đề, Nuôi đề gấp thếp, Thánh lô, Lô đề chân kinh</p>
+          </div>
+          <div class="flex ">
+            <button id="show-code-button" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="showCode()">Nhận mã</button>
+            <div class="bg-gray-800 bg-opacity-50 hidden" id="overlay"></div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hidden" id="codeContainer">
+              <h2 class="text-2xl font-bold mb-2">Mã của bạn:</h2>
+              <p class="text-3xl font-mono text-red-500" id="code">...</p>
+              <p class="text-sm mt-4">Mã sẽ hiển thị sau <span id="countdown" class="font-bold text-red-500">60</span> giây.</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>  
+  </body>
+</html>

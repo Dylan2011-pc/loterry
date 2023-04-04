@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header
+      class="bg-red-500 text-white py-3 sticky w-full z-50 flex justify-between flex-col items-center gap-3"
+    >
+      <div class="flex justify-between items-center w-full user-action px-6">
+        <div class="flex items-center">
+            <div class="drawer-handle">
+                <button class="btn btn-primary"><img src="./assets/icons/Menu.svg" alt=""></button>
+              </div>
+            <div>
+                <img class="w-[100px]" src="./assets/img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a href="https://play.ld99.club/#/gl/dashboard">
+            <button
+              class="user-action-button text-gray-700 px-4 py-2 rounded font-medium max-[768px]:text-[12px]"
+            >
+              Đăng nhập
+            </button>
+          </a>
+          <a href="https://play.ld99.club/#/gl/register">
+            <button
+              class="user-action-button text-gray-700 px-4 py-2 rounded font-medium max-[768px]:text-[12px]"
+            >
+              Đăng kí
+            </button>
+          </a>
+        </div>
+      </div>
+      <marquee behavior="scroll" direction="left">
+        <p class="text-[24px] font-extrabold font-mono uppercase text-white">
+          Uy tín, chất lượng, chuyên nghiệp số 1 Việt Nam! An toàn tuyệt đối!
+          Nạp/rút đơn giản, dễ dàng, thuận tiện.!!
+        </p>
+      </marquee>
+    </header>
+    <!-- Swiper -->
+    <div class="swiper-container my-10 overflow-x-hidden relative">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner1.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner2.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner3.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+            <img
+              src="./assets/img/banner4.jpg"
+              alt="Slot Machine"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide h-full">
+            <img
+              src="./assets/img/banner6.jpg"
+              alt="Slot Machine"
+              class="w-full h-full object-cover"
+            />
+          </div>
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Drawer -->
+    <div class="drawer-overlay"></div> <!-- add an overlay div -->
+    <div class="drawer">
+      <div class="drawer-content">
+          <ul class="">
+              <li class="pt-3 pb-2">
+                <a href="#" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                  <span class="text-lg font-semibold">Trang chủ</span>
+                </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/detail.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Giới
+                      thiệu chi tiết</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/promotion.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Khuyến mãi</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="https://ld99.club/bxh.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Bảng xếp hạng</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/thanhlo.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Thánh lô</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="https://ld99.club/lo-de-chan-kinh.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Lô đề chân
+                      kinh</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/huongdantaiapp.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Hướng dẫn
+                      tải app</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/QA.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Câu hỏi thường gặp</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/daily.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Đại lý</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/chietkhau.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Chiết khấu</span>
+                  </a>
+              </li>
+            </ul>
+      </div>
+  </div>
+      
+    <main class="max-w-screen-lg mx-auto px-4 ">
+      <p class="text-center text-4xl font-bold mb-2 animate-character-text">
+        Chào mừng đến với LD99 (Lô đề 99) - nhà cái hàng đầu Việt Nam
+      </p>
+      <p
+        class="text-lg text-center text-gray-700 mb-8 text-red-500 font-semibold"
+      >
+        Nơi sự uy tín được đặt lên trên tất cả.!!
+      </p>
+      <div>
+        <p class="text-[30px] font-bold font-sans text-transparent bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text">
+            Chiết khấu người giới thiệu
+        </p>
+      </div>
+      <section class="mt-5">
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-[18px]">
+                Các cụ dạy rồi, buôn là phải có bạn, bán là phải có phường, tá lả là phải có đủ 4 chân, giới thiệu được người chơi mới là phải được chiết khấu...
+<br> Rủ bạn cùng chơi để nhận thưởng 3% (bằng chữ: ba phần trăm 🤩🤩🤩) số tiền bạn của bạn nạp vào hệ thống. Số tiền thưởng được cộng trực tiếp vào số dư tài khoản của bạn ngay sau khi bạn của bạn nạp tiền thành công.
+<br> Phương thức mời bạn bè:
+<br>
+- Mỗi tài khoản khi tạo đều có 1 mã số giới thiệu
+<br>
+- Rủ bạn cùng chơi, khi mở tài khoản nhớ nhắc bạn của bạn nhập mã giới thiệu của bạn vào nhé. (Xem hướng dẫn mở tài khoản tại đây)
+<br>
+- Số tiền chiết khấu dành cho bạn được hệ thống chi trả thưởng, yên tâm không trừ tài khoản bạn của bạn đồng nào đâu nhé.
+Rủ nhiều tiền nhiều, rủ ít tiền ít, không rủ là không có tiền... kiếm tiền đơn giản, làm giàu không khó... cứ rủ là có tiền => Rủ đi chờ chi?
+            </p>
+        </div>
+
+      </section>
+    </main>
+
+     <footer>
+      <div class="h-fit px-5 py-8 w-full flex justify-between items-start max-[786px]:flex-col max-[786px]:gap-10">
+        <div class="flex flex-col w-[25%] max-[786px]:w-full">
+          <h1 class="text-red-500 text-[24px]">
+            Lợi ích khi tham gia 
+          </h1>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3 ">
+              Giao lưu với thánh Lô.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Giao lưu với thánh Cô.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Giao lưu với các lô thủ, đề thủ, số thủ... trên khắp mọi miền tổ quốc.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Nhận thông tin mới nhất và chính xác nhất mỗi ngày.
+            </p>
+          </a>
+          <div class="flex gap-3 mt-5 items-center">
+            <p class="text-white text-lg">Cài đặt Telegram</p>
+            <a href="https://apps.apple.com/us/app/telegram-messenger/id686449807" target="_blank">
+              <img src="./assets/icons/icon-telegram-ios.png" style="width: 60px;">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" target="_blank">
+              <img src="./assets/icons/icon-telegram-android.png" style="width: 60px;">
+          </a>
+          </div>
+
+        </div>
+        <div class="flex gap-5 items-center justify-start h-full flex-col w-[calc(75%-20px)] max-[786px]:w-full">
+          <ul class="warning flex justify-center gap-4">
+            <li>
+                <a class="warning" title="Cấm người chưa đủ 18+">
+                    <img src="./assets/icons/warning_18.png" alt="...">
+                </a>
+            </li>
+            <li>
+                <a class="hand" title="Cấm người chưa đủ 18+">
+                    <img src="./assets/icons/icon_hand.png" alt="...">
+                </a>
+            </li>
+          </ul>
+          <div>
+            <p class="text-white font-mono text-[16px] text-center">Chúng tôi tích cực đẩy mạnh cá cược có trách
+              nhiệm và
+              cương
+              quyết từ chối trẻ vị thành niên sử dụng phần mềm của chúng tôi để cá cược
+              trên mạng.
+          </p>
+          </div>
+          <div class="w-full">
+            <ul class="mt-2 flex justify-center gap-3">
+              <li class="p-1">
+                <a class="master-card" title="Ngân hàng">
+                    <img class="w-[70px]" src="./assets/icons/icon_add_banking.png" alt="...">
+                </a>
+            </li>
+            <li class="p-1">
+                <a class="bank" title="Momo">
+                    <img class="w-[70px]" src="./assets/icons/logo_momo2.png" alt="...">
+                </a>
+            </li>
+            <li class="p-1">
+                <a class="visa" title="Tiền điện tử USDT">
+                    <img class="w-[70px]" src="./assets/icons/coin.png" alt="...">
+                </a>
+            </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-5 justify-center">
+            <p class="text-white text-center text-[16px]">Copyright (C) 2023 by LD99. All rights reserved.</p>
+            <p class="text-white text-center text-[14px]">Tags: LD99, Lô, Đề, Lô đề, Loto, Đề truyền thống, Đề đầu, Đề đít, Đề đuôi, Đề chạm, Đề chẵn lẻ, Đề tài xỉu, Đề xấp ngửa, Đề 1 ăn 99, Đề 1 ăn 100, Lô truyền thống, Lô kép, Lô xiên, Lô xiên 2, Lô xiên 3, Lô xịt, Đề 3 càng, Nuôi lô, Nuôi lô gấp thếp, Nuôi đề, Nuôi đề gấp thếp, Thánh lô, Lô đề chân kinh</p>
+          </div>
+          <div class="flex ">
+            <button id="show-code-button" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="showCode()">Nhận mã</button>
+            <div class="bg-gray-800 bg-opacity-50 hidden" id="overlay"></div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hidden" id="codeContainer">
+              <h2 class="text-2xl font-bold mb-2">Mã của bạn:</h2>
+              <p class="text-3xl font-mono text-red-500" id="code">...</p>
+              <p class="text-sm mt-4">Mã sẽ hiển thị sau <span id="countdown" class="font-bold text-red-500">60</span> giây.</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>  
+  </body>
+</html>

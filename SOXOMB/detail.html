@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header
+      class="bg-red-500 text-white py-3 sticky w-full z-50 flex justify-between flex-col items-center gap-3"
+    >
+      <div class="flex justify-between items-center w-full user-action px-6">
+        <div class="flex items-center">
+            <div class="drawer-handle">
+                <button class="btn btn-primary"><img src="./assets/icons/Menu.svg" alt=""></button>
+              </div>
+            <div>
+                <img class="w-[100px]" src="./assets/img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a href="https://play.ld99.club/#/gl/dashboard">
+            <button
+              class="user-action-button text-gray-700 px-4 py-2 rounded font-medium max-[768px]:text-[12px]"
+            >
+              Đăng nhập
+            </button>
+          </a>
+          <a href="https://play.ld99.club/#/gl/register">
+            <button
+              class="user-action-button text-gray-700 px-4 py-2 rounded font-medium max-[768px]:text-[12px]"
+            >
+              Đăng kí
+            </button>
+          </a>
+        </div>
+      </div>
+      <marquee behavior="scroll" direction="left">
+        <p class="text-[24px] font-extrabold font-mono uppercase text-white">
+          Uy tín, chất lượng, chuyên nghiệp số 1 Việt Nam! An toàn tuyệt đối!
+          Nạp/rút đơn giản, dễ dàng, thuận tiện.!!
+        </p>
+      </marquee>
+    </header>
+    <!-- Swiper -->
+    <div class="swiper-container my-10 overflow-x-hidden relative">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner1.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner2.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+          <img
+            src="./assets/img/banner3.jpg"
+            alt="Slot Machine"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="swiper-slide h-full">
+            <img
+              src="./assets/img/banner4.jpg"
+              alt="Slot Machine"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="swiper-slide h-full">
+            <img
+              src="./assets/img/banner6.jpg"
+              alt="Slot Machine"
+              class="w-full h-full object-cover"
+            />
+          </div>
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Drawer -->
+    <div class="drawer-overlay"></div> <!-- add an overlay div -->
+    <div class="drawer">
+      <div class="drawer-content">
+          <ul class="">
+              <li class="pt-3 pb-2">
+                <a href="#" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                  <span class="text-lg font-semibold">Trang chủ</span>
+                </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/detail.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Giới
+                      thiệu chi tiết</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/promotion.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Khuyến mãi</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="https://ld99.club/bxh.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Bảng xếp hạng</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/thanhlo.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Thánh lô</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="https://ld99.club/lo-de-chan-kinh.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Lô đề chân
+                      kinh</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/huongdantaiapp.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Hướng dẫn
+                      tải app</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/QA.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Câu hỏi thường gặp</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/daily.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Đại lý</span>
+                  </a>
+              </li>
+              <li class="pt-3 pb-2">
+                  <a href="/chietkhau.html" class="block px-4 py-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red-500">
+                    <span class="text-lg font-semibold">Chiết khấu</span>
+                  </a>
+              </li>
+            </ul>
+      </div>
+    </div>
+      
+    <main class="max-w-screen-lg mx-auto px-4 ">
+      <p class="text-center text-4xl font-bold mb-2 animate-character-text">
+        Chào mừng đến với LD99 (Lô đề 99) - nhà cái hàng đầu Việt Nam
+      </p>
+      <p
+        class="text-lg text-center text-gray-700 mb-8 text-red-500 font-semibold"
+      >
+        Nơi sự uy tín được đặt lên trên tất cả.!!
+      </p>
+      <div>
+        <p class="text-[30px] font-bold font-sans text-transparent bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text">
+            Danh sách chi tiết các trò chơi
+        </p>
+      </div>
+      <section class="mt-5">
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                1. Báo đề truyền thống
+            </p>
+            <p>
+                Báo đề hay đánh đề là một trò chơi dựa theo kết quả xổ số kiến thiết của nhà nước. Hình thức chơi này đã có từ rất lâu và được mọi người hưởng ứng chơi rất nhiệt tình. Ưu điểm của báo đề là đơn giản, nhanh gọn và tỷ lệ ăn cao.
+                <br>
+                ❖ Luật chơi báo đề truyền thống tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số từ 00-99.
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối giải độc đắc. Nếu bạn dự đoán đúng 2 con số này nghĩa là bạn đã ‘trúng đề’.
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 12,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                2. BÁO LÔ TRUYỀN THỐNG
+            </p>
+            <p>
+                Tương tự như với đề, nhưng báo lô hay đánh lô không chỉ so sánh với giải đặc biệt, mà so sánh với tất cả các kết quả xổ số.
+                Khi chơi lô, người ta sẽ có đơn vị tính là “điểm”. Lô mang tỉ lệ trúng cao hơn đề rất nhiều, bởi đề chỉ tính giải đặc biệt, Lô thì tính tất cả các giải.
+                Ngoài ra, có một điểm khác biệt nữa của đánh lô so với đánh đề, đó chính là “nháy”. Nghĩa là khi bạn đánh 1 con nào đó mà nó về 2 nháy – 3 nháy… thì số tiền thưởng của bạn cũng được nhân lên x2, x3… tùy theo số nháy xuất hiện.
+                <br>
+                ❖ Luật chơi báo lô truyền thống tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số từ 00-99.
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối giải độc đắc. Nếu bạn dự đoán đúng 2 con số này nghĩa là bạn đã ‘trúng đề’.
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 27,000 xu </span> ăn <span class="underline text-yellow-500"> 100,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                3. BÁO LÔ KÉP
+            </p>
+            <p>
+                Đánh lô có khá nhiều hình thức đa dạng, một trong những hình thức chơi khá thú vị tại LD99 là báo lô kép. Điểm khác biệt so với lô thường đó là các con số báo lô chỉ xoay quanh các bộ số kép bao gồm: 00, 11, 22, 33, 44, 55, 66, 77, 88, 99. Tỷ lệ trả thưởng của báo lô kép cũng có khác biệt so với lô thông thường.
+                <br>
+                ❖ Luật chơi báo lô kép tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số kép (00, 11, 22 …).
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối các giải. Nếu bạn dự đoán đúng 1 trong các cặp số cuối của các giải nghĩa là bạn đã ‘trúng lô kép’.
+                <br>
+                <br>
+                - Nếu số người chơi chọn lựa về nhiều giải (nhiều nháy) sẽ được nhân số tiền thưởng tương ứng số lần về (số nháy)
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 27,000 xu </span> ăn <span class="underline text-yellow-500"> 100,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                4. BÁO LÔ XIÊN 2
+            </p>
+            <p>
+                Lô thông thường bạn sẽ chỉ đánh theo từng con mà thôi, thế nhưng với lô xiên bạn sẽ phải “xiên” nhiều con lại với nhau, rõ ràng hình thức lô xiên khó ăn hơn lô truyền thống, tương đương với đó tiền trả thưởng lại càng cao. Thường thì mọi người sẽ chỉ xiên 2, xiên 3 mà thôi. Đây là hình thức giải trí rất thú vị anh em nên nghiên cứu và cơ cấu phần vốn để chiến nhé.
+                <br>
+                ❖ Luật chơi báo lô xiên 2 tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn bộ số gồm 2 cặp số từ 00-99.
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối các giải. Nếu bạn dự đoán đúng cả 2 cặp số đã chọn trong các cặp số cuối của các giải nghĩa là bạn đã ‘trúng lô xiên 2’.
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 54,000 xu </span> ăn <span class="underline text-yellow-500"> 756,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                5. BÁO LÔ XIÊN 3
+            </p>
+            <p>
+                Lô thông thường bạn sẽ chỉ đánh theo từng con mà thôi, thế nhưng với lô xiên bạn sẽ phải “xiên” nhiều con lại với nhau, rõ ràng hình thức lô xiên khó ăn hơn lô truyền thống, tương đương với đó tiền trả thưởng lại càng cao. Thường thì mọi người sẽ chỉ xiên 2, xiên 3 mà thôi. Đây là hình thức giải trí rất thú vị anh em nên nghiên cứu và cơ cấu phần vốn để chiến nhé.                <br>
+                ❖ Luật chơi báo lô xiên 3 tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn bộ số gồm 3 cặp số từ 00-99.                
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối các giải. Nếu bạn dự đoán đúng cả 3 cặp số đã chọn trong các cặp số cuối của các giải nghĩa là bạn đã ‘trúng lô xiên 3’.                <br>
+                <br><br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 81,000 xu </span> ăn <span class="underline text-yellow-500"> 4,455,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                6. BÁO  LÔ XỊT
+            </p>
+            <p>
+                Một hình thức báo lô cực kỳ đặc biệt, đó là báo lô xịt. Khi mọi người báo lô hoặc mà con họ báo không về thì sẽ rất buồn vì không ăn được tiền cược. Thế nhưng với lô xịt thì ngược lại, khi những con bạn đánh không về, bạn mới ăn được tiền cược. Tất nhiên mọi thứ không đơn giản như vậy, mà bạn chọn 10 con và 10 con đều phải cùng “xịt” thì bạn mới được ăn tiền.                
+                <br>
+                ❖ Luật chơi báo lô xiên 3 tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn bộ số gồm 10 cặp số từ 00-99.               
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối các giải. Nếu bạn dự đoán xịt cả 10 cặp số đã chọn trong các cặp số cuối của các giải nghĩa là bạn đã ‘trúng lô xịt’.                
+                <br><br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 270,000 xu </span> ăn <span class="underline text-yellow-500"> 2,700,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                7. BÁO ĐỀ 3 CÀNG
+            </p>
+            <p>
+                Một cách đánh đề nữa mà nó khá phổ biến, đó chính là đánh 3 càng. Để dễ hiểu hơn, thì đánh đề thông thường chính là 2 càng (bộ có 2 số). Vậy thì đánh 3 càng sẽ là bộ có 3 số. Ví dụ 254, 785, 381… tất nhiên là đánh như này thì tỷ lệ trúng thưởng sẽ thấp hơn rất nhiều, nhưng kèm theo đó thì tỷ lệ tiền trả thưởng lại rất cao.
+                <br>
+                ❖ Luật chơi báo đề 3 càng tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số từ 000-999.            
+                <br>
+                <br>
+                - Kết quả so với 3 số cuối giải độc đắc. Nếu bạn dự đoán đúng 3 con số này nghĩa là bạn đã ‘trúng đề 3 càng’.                 
+                <br><br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 12,000 xu </span> ăn <span class="underline text-yellow-500"> 12,000,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                8. BÁO ĐỀ ĐẦU
+            </p>
+            <p>
+                Báo đề bạn sẽ cần đánh 1 số có tới 2 chữ số. Báo đề đầu thì bạn chỉ cần chọn 1 số đầu là đã đánh cả 1 bộ có 10 số cùng đầu với nhau. Ví dụ bạn đánh đầu 1, nghĩa là toàn bộ các con có đầu 1 đều được đánh bao gồm: 10, 11, 12, 13, 14, 15, 16, 17, 18, 19.                <br>
+                <br>
+                ❖  Luật chơi báo đề đầu tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                -  Người chơi chọn số từ 0-9.              
+                <br>
+                <br>
+                - Kết quả so với chữ số hàng chục (****x*) của giải độc đắc. Nếu bạn dự đoán đúng con số này nghĩa là bạn đã ‘trúng đề đầu’.           
+                <br><br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 120,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                9. BÁO ĐỀ ĐÍT
+            </p>
+            <p>
+                Tương tự Báo đề đầu, đối với báo đề đít bạn chỉ cần chọn 1 đít là đã đánh cả 1 bộ có 10 số cùng đít với nhau. Ví dụ bạn đánh đít 7, nghĩa là toàn bộ các con có đít 7 đều được đánh bao gồm: 07, 17, 27, 37, 47, 57, 67, 77, 87, 97.                
+                <br>
+                ❖  Luật chơi báo đề đít tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số từ 0-9.               
+                <br>
+                <br>
+                - Kết quả so với chữ số hàng đơn vị (*****x) của giải độc đắc. Nếu bạn dự đoán đúng con số này nghĩa là bạn đã ‘trúng đề đít’.               
+                <br><br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 120,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                10. BÁO ĐỀ CHẠM
+            </p>
+            <p>
+                Như anh em đã biết, đề tức là 2 số cuối của giải đặc biệt, từ chạm có nghĩa là chạm vào, dính vào… Đề chạm có nghĩa là dãy số với được ghép với cả đầu và đít với số bạn chọn. Ví dụ: dàn đề chạm 0 là dãy 19 số đều chứa số 0: 00, 01, 10, 02, 20, 03, 30, 04, 40, 05, 50, 06, 60, 07, 70, 08, 80, 09, 90. Vì tính đặc thù này nên đề chạm đã trở thành một cách đánh đề, được cho là có tỷ lệ thắng cao (nhiều số thì càng dễ về hơn)                
+                <br>
+                ❖ Luật chơi báo đề chạm tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số từ 0-9.
+                <br>
+                <br>
+                - Kết quả so với chữ số chữ số hàng đơn vị và hàng chục của giải độc đắc. Nếu bạn dự đoán đúng con số này nghĩa là bạn đã ‘trúng đề chạm’.          
+                <br><br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 240,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                11. BÁO ĐỀ CHẴN LẺ
+            </p>
+            <p>
+                Khi nghe cái tên báo đề chẵn/lẻ anh em có thể đã hình dung ra rất đơn giản về hình thức của nó… Đề chẵn lẻ có nghĩa là dãy số chẵn/ lẻ từ 00-99 sẽ bao gồm 50 số chẵn và 50 số lẻ, như vậy đề chẵn lẻ có tỷ lệ thắng lên tới 50%. Đặc biệt tại LD99, tỉ lệ trả thưởng của hình thức này lên tới 1 ăn 100, kết hợp hoàn hảo với số đề chạm hàng ngày Thánh cho thì anh em còn phải lăn tăn nghĩ ngợi gì nữa?                
+                <br>
+                ❖ Luật chơi báo đề chẵn lẻ tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn bộ số chẵn/lẻ từ 00-99.         
+                <br>
+                <br>
+                - Kết quả so 2 số cuối giải độc đắc là chẵn/lẻ. Nếu bạn dự đoán đúng chẵn/lẻ nghĩa là bạn đã ‘trúng đề chẵn/lẻ’.                
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 600,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                12. BÁO ĐỀ TÀI XỈU
+            </p>
+            <p>
+                Tương đối giống như hình thức đề chẵn lẻ, đề tài xỉu chỉ khác về dãy số, đề tài xỉu có nghĩa là dãy số tài/ xỉu từ 00-99 sẽ tương ứng 50 số từ 50-99 và 50 số từ 00-49, tỷ lệ thắng của báo đề tài xỉu cũng là 50% và tỉ lệ trả thưởng của hình thức này tại LD99 vẫn lên tới 1 ăn 100 anh em nhé.                
+                <br>
+                ❖ Luật chơi báo đề tài xỉu tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn bộ số xỉu (00-49) / tài (50-99).                
+                <br>
+                <br>
+                - Kết quả so 2 số cuối giải độc đắc là chẵn/lẻ. Nếu bạn dự đoán đúng chẵn/lẻ nghĩa là bạn đã ‘trúng đề chẵn/lẻ’.                 
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 600,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                12. BÁO ĐỀ TÀI XỈU
+            </p>
+            <p>
+                Tương đối giống như hình thức đề chẵn lẻ, đề tài xỉu chỉ khác về dãy số, đề tài xỉu có nghĩa là dãy số tài/ xỉu từ 00-99 sẽ tương ứng 50 số từ 50-99 và 50 số từ 00-49, tỷ lệ thắng của báo đề tài xỉu cũng là 50% và tỉ lệ trả thưởng của hình thức này tại LD99 vẫn lên tới 1 ăn 100 anh em nhé.                
+                <br>
+                ❖ Luật chơi báo đề tài xỉu tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn bộ số xỉu (00-49) / tài (50-99).                
+                <br>
+                <br>
+                - Kết quả so 2 số cuối giải độc đắc là chẵn/lẻ. Nếu bạn dự đoán đúng chẵn/lẻ nghĩa là bạn đã ‘trúng đề chẵn/lẻ’.                 
+                <br><br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 600,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                13. NUÔI LÔ
+            </p>
+            <p>
+                Nuôi lô gấp thếp có nghĩa là người chơi sẽ dùng vốn để đánh lớn dần theo chu kỳ nuôi lô, vốn của ngày hôm sau sẽ gấp đôi so với ngày trước. Việc nuôi lô gấp thếp sẽ kéo dài trong chu kỳ theo số ngày người chơi lựa chọn nuôi.                
+                <br>
+                ❖  Luật chơi nuôi lô gấp thếp tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số nuôi từ 00-99.           
+                <br>
+                <br>
+                - Người chơi chọn số ngày nuôi.
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối các giải theo từng ngày nuôi đã chọn. Nếu bạn dự đoán đúng số đã chọn trong các cặp số cuối của các giải nghĩa là bạn đã ‘trúng lô gấp thếp’.
+                <br>
+                <br>
+                - Kết quả sẽ dừng lại khi: người chơi ‘trúng lô gấp thếp’/ khi thời gian nuôi kết thúc
+                <br><br>
+                - Nếu số người chơi chọn lựa về nhiều giải (nhiều nháy) sẽ được nhân số tiền thưởng tương ứng số lần về (số nháy)
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 27,000 xu </span> ăn <span class="underline text-yellow-500"> 100,000 xu. </span> 
+            </p>
+        </div>
+        <div class="flex flex-col gap-4 mb-8">
+            <p class="text-red-500 text-[24px]">
+                14. NUÔI ĐỀ
+            </p>
+            <p>
+                Nuôi đề gấp thếp có nghĩa là người chơi sẽ dùng vốn để đánh lớn dần theo chu kỳ nuôi đề, vốn của ngày hôm sau sẽ gấp đôi so với ngày trước. Việc nuôi đề gấp thếp sẽ kéo dài trong chu kỳ theo số ngày người chơi lựa chọn nuôi. 
+                <br>
+                ❖  Luật chơi nuôi đề gấp thếp tại <span class="text-red-400"> LD99</span> như sau:
+                <br>
+                <br>
+                - Người chơi chọn số nuôi từ 00-99.           
+                <br>
+                <br>
+                - Người chơi chọn số ngày nuôi.
+                <br>
+                <br>
+                - Kết quả so với 2 số cuối giải độc đắc theo từng ngày nuôi đã chọn. Nếu bạn dự đoán đúng 2 con số này nghĩa là bạn đã ‘trúng đề gấp thếp’.
+                <br>
+                <br>
+                - Kết quả sẽ dừng lại khi: người chơi ‘trúng đề gấp thếp’/ khi thời gian nuôi kết thúc
+                <br>
+                <br>
+                - Tỷ lệ:&nbsp; <span class="underline text-yellow-500"> 1 điểm </span> = <span class="underline text-yellow-500"> 12,000 xu </span> ăn <span class="underline text-yellow-500"> 1,200,000 xu. </span> 
+            </p>
+        </div>
+      </section>
+    </main>
+
+     <footer>
+      <div class="h-fit px-5 py-8 w-full flex justify-between items-start max-[786px]:flex-col max-[786px]:gap-10">
+        <div class="flex flex-col w-[25%] max-[786px]:w-full">
+          <h1 class="text-red-500 text-[24px]">
+            Lợi ích khi tham gia 
+          </h1>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3 ">
+              Giao lưu với thánh Lô.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Giao lưu với thánh Cô.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Giao lưu với các lô thủ, đề thủ, số thủ... trên khắp mọi miền tổ quốc.
+            </p>
+          </a>
+          <a href="https://t.me/ld99asia" class="flex gap-3 mt-5">
+            <img src="./assets/icons/right-arrow.svg" alt="">
+            <p class="text-sm text-white pl-3">
+              Nhận thông tin mới nhất và chính xác nhất mỗi ngày.
+            </p>
+          </a>
+          <div class="flex gap-3 mt-5 items-center">
+            <p class="text-white text-lg">Cài đặt Telegram</p>
+            <a href="https://apps.apple.com/us/app/telegram-messenger/id686449807" target="_blank">
+              <img src="./assets/icons/icon-telegram-ios.png" style="width: 60px;">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" target="_blank">
+              <img src="./assets/icons/icon-telegram-android.png" style="width: 60px;">
+          </a>
+          </div>
+
+        </div>
+        <div class="flex gap-5 items-center justify-start h-full flex-col w-[calc(75%-20px)] max-[786px]:w-full">
+          <ul class="warning flex justify-center gap-4">
+            <li>
+                <a class="warning" title="Cấm người chưa đủ 18+">
+                    <img src="./assets/icons/warning_18.png" alt="...">
+                </a>
+            </li>
+            <li>
+                <a class="hand" title="Cấm người chưa đủ 18+">
+                    <img src="./assets/icons/icon_hand.png" alt="...">
+                </a>
+            </li>
+          </ul>
+          <div>
+            <p class="text-white font-mono text-[16px] text-center">Chúng tôi tích cực đẩy mạnh cá cược có trách
+              nhiệm và
+              cương
+              quyết từ chối trẻ vị thành niên sử dụng phần mềm của chúng tôi để cá cược
+              trên mạng.
+          </p>
+          </div>
+          <div class="w-full">
+            <ul class="mt-2 flex justify-center gap-3">
+              <li class="p-1">
+                <a class="master-card" title="Ngân hàng">
+                    <img class="w-[70px]" src="./assets/icons/icon_add_banking.png" alt="...">
+                </a>
+            </li>
+            <li class="p-1">
+                <a class="bank" title="Momo">
+                    <img class="w-[70px]" src="./assets/icons/logo_momo2.png" alt="...">
+                </a>
+            </li>
+            <li class="p-1">
+                <a class="visa" title="Tiền điện tử USDT">
+                    <img class="w-[70px]" src="./assets/icons/coin.png" alt="...">
+                </a>
+            </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-5 justify-center">
+            <p class="text-white text-center text-[16px]">Copyright (C) 2023 by LD99. All rights reserved.</p>
+            <p class="text-white text-center text-[14px]">Tags: LD99, Lô, Đề, Lô đề, Loto, Đề truyền thống, Đề đầu, Đề đít, Đề đuôi, Đề chạm, Đề chẵn lẻ, Đề tài xỉu, Đề xấp ngửa, Đề 1 ăn 99, Đề 1 ăn 100, Lô truyền thống, Lô kép, Lô xiên, Lô xiên 2, Lô xiên 3, Lô xịt, Đề 3 càng, Nuôi lô, Nuôi lô gấp thếp, Nuôi đề, Nuôi đề gấp thếp, Thánh lô, Lô đề chân kinh</p>
+          </div>
+          <div class="flex ">
+            <button id="show-code-button" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="showCode()">Nhận mã</button>
+            <div class="bg-gray-800 bg-opacity-50 hidden" id="overlay"></div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hidden" id="codeContainer">
+              <h2 class="text-2xl font-bold mb-2">Mã của bạn:</h2>
+              <p class="text-3xl font-mono text-red-500" id="code">...</p>
+              <p class="text-sm mt-4">Mã sẽ hiển thị sau <span id="countdown" class="font-bold text-red-500">60</span> giây.</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>  
+  </body>
+</html>
